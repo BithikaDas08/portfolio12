@@ -930,29 +930,23 @@ html {
   }
 }
 @media (max-width: 768px) {
-  .skills {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  .skills-container {
     align-items: flex-start;
+    text-align: left;
   }
 
   .technical-bars {
-    width: 100%;
     align-items: flex-start;
+    text-align: left;
   }
 
   .technical-bars .bar {
     width: 100%;
   }
 
-  .professional-skills {
-    width: 100%;
-    align-items: center;
+  .heading1 {
+    text-align: left;
+    margin-left: 10px;
   }
 }
-
-
-
-
 
