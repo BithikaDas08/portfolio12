@@ -929,25 +929,34 @@ html {
   }
 }
 @media (max-width: 768px) {
-  .skills-container {
+  .skills {
+    flex-direction: column;
     align-items: flex-start;
-    text-align: left;
+    padding: 0 20px;
   }
 
   .technical-bars {
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .technical-bars .bar {
     width: 100%;
+    text-align: left;
+    align-items: flex-start;
   }
 
   .heading1 {
     text-align: left;
-    margin-left: 10px;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .bar {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .info {
+    justify-content: space-between;
   }
 }
+
 
 
 
