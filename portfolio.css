@@ -923,34 +923,8 @@ html {
     padding: 20px;
   }
 }
-@media (max-width: 768px) {
-  .skills {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 20px;
-  }
 
-  .technical-bars {
-    width: 100%;
-    text-align: left;
-    align-items: flex-start;
-  }
 
-  .heading1 {
-    text-align: left;
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .bar {
-    margin-left: 0;
-    padding-left: 0;
-  }
-
-  .info {
-    justify-content: space-between;
-  }
-}
 
 
 
